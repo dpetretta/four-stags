@@ -209,4 +209,4 @@ section[id]{scroll-margin-top:90px} .header-right{display:flex;align-items:cente
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 
 /* Match the visible logo to the two presenter text lines. */
-.presenter .presenter-logo{display:block;width:auto;height:3.2em;flex:0 0 auto;align-self:center;overflow:visible;background:transparent}
+.presenter .presenter-logo{display:block;width:auto;height:2.6em;flex:0 0 auto;align-self:center;overflow:visible;background:transparent}
