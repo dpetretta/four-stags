@@ -5,15 +5,6 @@ window.addEventListener('scroll', () => {
   header.classList.toggle('scrolled', window.scrollY > 45);
 });
 
-const form = document.getElementById('inquiryForm');
-const note = document.getElementById('formNote');
-
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  note.textContent = 'Preview only — your inquiry has not been sent or saved.';
-  note.style.color = '#c69b63';
-});
-
 const revealEls = [...document.querySelectorAll('.location-card, .detail-list div, .activity-grid div')];
 const io = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
