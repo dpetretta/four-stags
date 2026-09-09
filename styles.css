@@ -245,3 +245,4 @@ section[id]{scroll-margin-top:90px} .header-right{display:flex;align-items:cente
 .destination-image img{width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;background:#0b100e}
 .destination-image figcaption{font-size:12px;line-height:1.5;color:#a9b1ac;margin-top:10px}
 .location-card .stat-row{margin-top:25px}
+.petcon-link{display:inline-flex;align-items:center;flex:0 0 auto;color:inherit}
